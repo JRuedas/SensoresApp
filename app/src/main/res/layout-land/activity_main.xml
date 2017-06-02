@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="es.upm.sd.reto3sd.MainActivity">
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/tvPosicion"
@@ -15,18 +14,18 @@
         android:layout_marginTop="8dp"
         android:text="@string/gpsTitle"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintHorizontal_bias="0.083"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.08" />
+        app:layout_constraintVertical_bias="0.027" />
 
     <TextView
         android:id="@+id/tvLatitud"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="72dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginLeft="103dp"
+        android:layout_marginTop="59dp"
         android:text="@string/latitude"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -35,8 +34,8 @@
         android:id="@+id/tvLongitud"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="72dp"
-        android:layout_marginTop="110dp"
+        android:layout_marginLeft="103dp"
+        android:layout_marginTop="93dp"
         android:text="@string/longitude"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -45,8 +44,8 @@
         android:id="@+id/tvTextLatitud"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="176dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginLeft="207dp"
+        android:layout_marginTop="59dp"
         android:text="TextView"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -55,8 +54,8 @@
         android:id="@+id/tvTextLongitud"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="176dp"
-        android:layout_marginTop="110dp"
+        android:layout_marginLeft="207dp"
+        android:layout_marginTop="93dp"
         android:text="TextView"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -65,8 +64,8 @@
         android:id="@+id/tvDistancia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="72dp"
-        android:layout_marginTop="146dp"
+        android:layout_marginLeft="103dp"
+        android:layout_marginTop="127dp"
         android:text="@string/distance"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -75,8 +74,8 @@
         android:id="@+id/tvTextDistancia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="176dp"
-        android:layout_marginTop="146dp"
+        android:layout_marginLeft="207dp"
+        android:layout_marginTop="127dp"
         android:text="TextView"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -85,8 +84,8 @@
         android:id="@+id/tvTemperatura"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="27dp"
-        android:layout_marginTop="186dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="179dp"
         android:text="@string/tempTitle"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -95,8 +94,8 @@
         android:id="@+id/tvUltimaTemp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="72dp"
-        android:layout_marginTop="222dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="220dp"
         android:text="@string/lastTemp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -105,8 +104,8 @@
         android:id="@+id/tvTextUltimaTemp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="176dp"
-        android:layout_marginTop="222dp"
+        android:layout_marginLeft="207dp"
+        android:layout_marginTop="220dp"
         android:text="TextView"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -115,7 +114,7 @@
         android:id="@+id/tvMedia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="72dp"
+        android:layout_marginLeft="108dp"
         android:layout_marginTop="266dp"
         android:text="@string/mean"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -125,7 +124,7 @@
         android:id="@+id/tvTextMedia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="176dp"
+        android:layout_marginLeft="207dp"
         android:layout_marginTop="266dp"
         android:text="TextView"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -135,30 +134,29 @@
         android:id="@+id/swPosicion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="371dp"
+        android:layout_marginTop="93dp"
         android:text="@string/gpsTitle"
-        android:layout_marginLeft="62dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="410dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Switch
         android:id="@+id/swTemperatura"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="371dp"
+        android:layout_marginTop="237dp"
         android:text="@string/tempTitle"
-        android:layout_marginLeft="185dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="410dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tvActivadores"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="133dp"
-        android:layout_marginTop="360dp"
+        android:layout_marginLeft="352dp"
+        android:layout_marginTop="16dp"
         android:text="@string/switchTitle"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 </android.support.constraint.ConstraintLayout>

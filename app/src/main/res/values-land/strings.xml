@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Aplicación de Sensores..............</string>
+    <string name="gpsTitle">Posición........</string>
+    <string name="latitude">Latitud......:</string>
+    <string name="longitude">Longitud........:</string>
+    <string name="distance">Distancia......:</string>
+    <string name="tempTitle">Temperatura........</string>
+    <string name="lastTemp">Ultima.....:</string>
+    <string name="mean">Media......:</string>
+    <string name="switchTitle">Activadores..........</string>
+    <string name="action_settings">Opciones</string>
+</resources>
